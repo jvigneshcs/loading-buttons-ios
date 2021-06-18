@@ -5,6 +5,7 @@ let package = Package(
     name: "MHLoadingButton",
     platforms: [
         .iOS(.v9),
+        .tvOS(.v9),
     ],
     products: [
         .library(

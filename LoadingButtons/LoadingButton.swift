@@ -8,7 +8,6 @@
 
 import UIKit
 
-#if os(iOS)
 @IBDesignable
 open class LoadingButton: UIButton {
     // MARK: - Public variables
@@ -284,7 +283,6 @@ open class LoadingButton: UIButton {
         self.backgroundColor = self.bgColor == UIColor.clear ? .lightGray : self.bgColor.getColorTint()
     }
 }
-#endif
 // MARK: - UIActivityIndicatorView
 extension UIActivityIndicatorView: IndicatorProtocol {
     public var radius: CGFloat {
